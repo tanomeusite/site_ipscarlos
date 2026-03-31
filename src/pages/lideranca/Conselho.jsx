@@ -4,7 +4,7 @@ import { Shield } from "lucide-react";
 import PageHero from "@/components/shared/PageHero";
 import SectionHeader from "@/components/shared/SectionHeader";
 
-const HERO_IMG = "/__generating__/img_f09a8693514d.png";
+const HERO_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/d78d66e81_generated_5021373e.png";
 
 const presbiteros = [
   "Presbítero 1",

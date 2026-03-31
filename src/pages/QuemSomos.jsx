@@ -4,7 +4,7 @@ import { Target, Eye, Gem } from "lucide-react";
 import PageHero from "@/components/shared/PageHero";
 import SectionHeader from "@/components/shared/SectionHeader";
 
-const HERO_IMG = "/__generating__/img_1ec301887082.png";
+const HERO_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/c4901a454_generated_ce389ba4.png";
 
 const values = [
   "Autoridade das Escrituras Sagradas",

@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import PageHero from "@/components/shared/PageHero";
 
-const HISTORY_IMG = "/__generating__/img_230937625d5e.png";
+const HISTORY_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/66599b174_generated_fa460faa.png";
 
 const timeline = [
   {

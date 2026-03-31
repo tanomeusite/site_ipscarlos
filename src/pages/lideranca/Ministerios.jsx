@@ -4,7 +4,7 @@ import { Music, Baby, Users, BookOpen, Heart, Mic } from "lucide-react";
 import PageHero from "@/components/shared/PageHero";
 import SectionHeader from "@/components/shared/SectionHeader";
 
-const HERO_IMG = "/__generating__/img_8c5c43e31ea8.png";
+const HERO_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/55551051c_generated_9948c575.png";
 
 const ministerios = [
   {
