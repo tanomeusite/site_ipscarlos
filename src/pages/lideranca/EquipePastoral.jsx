@@ -6,17 +6,17 @@ import SectionHeader from "@/components/shared/SectionHeader";
 const HERO_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/d78d66e81_generated_5021373e.png";
 
 const pastores = [
-  {
-    nome: "Rev. Pastor Titular",
-    cargo: "Pastor Titular",
-    descricao: "Responsável pela liderança espiritual da congregação, pregação dominical e aconselhamento pastoral.",
-  },
-  {
-    nome: "Rev. Pastor Auxiliar",
-    cargo: "Pastor Auxiliar",
-    descricao: "Auxilia no ministério pastoral, coordena grupos pequenos e lidera os ministérios de jovens e adolescentes.",
-  },
-];
+{
+  nome: "Rev. Willian Roberto da Silva",
+  cargo: "Pastor Titular",
+  descricao: "Responsável pela liderança espiritual da congregação, pregação dominical e aconselhamento pastoral."
+},
+{
+  nome: "Rev. Pastor Auxiliar",
+  cargo: "Pastor Auxiliar",
+  descricao: "Auxilia no ministério pastoral, coordena grupos pequenos e lidera os ministérios de jovens e adolescentes."
+}];
+
 
 export default function EquipePastoral() {
   return (
@@ -24,27 +24,27 @@ export default function EquipePastoral() {
       <PageHero
         title="Equipe Pastoral"
         subtitle="Nossos pastores dedicados ao serviço do Senhor e da congregação"
-        image={HERO_IMG}
-      />
+        image={HERO_IMG} />
+      
 
       <section className="py-20 px-4">
         <div className="max-w-5xl mx-auto">
           <SectionHeader
             overline="Liderança Espiritual"
             title="Nossos Pastores"
-            description="Pastores chamados por Deus para apascentar, ensinar e cuidar do rebanho do Senhor."
-          />
+            description="Pastores chamados por Deus para apascentar, ensinar e cuidar do rebanho do Senhor." />
+          
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {pastores.map((pastor, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.15 }}
-                className="bg-card border border-border rounded-xl overflow-hidden hover:border-primary/30 transition-colors duration-300"
-              >
+            {pastores.map((pastor, i) =>
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.15 }}
+              className="bg-card border border-border rounded-xl overflow-hidden hover:border-primary/30 transition-colors duration-300">
+              
                 <div className="h-48 bg-gradient-to-br from-primary/20 to-accent flex items-center justify-center">
                   <div className="w-24 h-24 rounded-full bg-primary/10 border-2 border-primary/30 flex items-center justify-center">
                     <span className="font-heading text-3xl font-bold text-primary">
@@ -64,10 +64,10 @@ export default function EquipePastoral() {
                   </p>
                 </div>
               </motion.div>
-            ))}
+            )}
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 }
