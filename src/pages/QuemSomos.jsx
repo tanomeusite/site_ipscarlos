@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Target, Eye, Gem } from "lucide-react";
+import { Target, Gem } from "lucide-react";
 import PageHero from "@/components/shared/PageHero";
 import SectionHeader from "@/components/shared/SectionHeader";
 
@@ -22,49 +22,27 @@ export default function QuemSomos() {
     <div>
       <PageHero
         title="Quem Somos"
-        subtitle="Conheça nossa missão, visão e os valores que nos guiam"
+        subtitle="Conheça nossa missão e os valores que nos guiam"
         image={HERO_IMG}
       />
 
-      {/* Mission, Vision */}
+      {/* Mission */}
       <section className="py-20 px-4">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="max-w-3xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="bg-card border border-border rounded-xl p-8 hover:border-primary/30 transition-colors duration-300"
+            className="bg-card border border-border rounded-xl p-10 hover:border-primary/30 transition-colors duration-300 text-center"
           >
-            <div className="w-14 h-14 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center mb-6">
+            <div className="w-14 h-14 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center mb-6 mx-auto">
               <Target className="w-7 h-7 text-primary" />
             </div>
             <h3 className="font-heading text-2xl font-bold text-foreground mb-4">
               Nossa Missão
             </h3>
-            <p className="font-body text-muted-foreground leading-relaxed">
-              Glorificar a Deus e desfrutar dele para sempre, proclamando o Evangelho de Jesus
-              Cristo, edificando os santos na fé reformada e servindo à comunidade de São Carlos
-              com amor e compaixão.
-            </p>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.15 }}
-            className="bg-card border border-border rounded-xl p-8 hover:border-primary/30 transition-colors duration-300"
-          >
-            <div className="w-14 h-14 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center mb-6">
-              <Eye className="w-7 h-7 text-primary" />
-            </div>
-            <h3 className="font-heading text-2xl font-bold text-foreground mb-4">
-              Nossa Visão
-            </h3>
-            <p className="font-body text-muted-foreground leading-relaxed">
-              Ser uma comunidade cristã relevante na cidade de São Carlos, reconhecida pela
-              fidelidade à Palavra de Deus, pela excelência no culto, pelo amor fraternal
-              e pelo impacto positivo na sociedade.
+            <p className="font-body text-muted-foreground leading-relaxed text-lg">
+              Abençoar a cidade de São Carlos e o mundo por meio de nossa presença fiel como discípulos de Jesus.
             </p>
           </motion.div>
         </div>
