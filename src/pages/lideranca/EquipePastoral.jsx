@@ -46,7 +46,7 @@ export default function EquipePastoral() {
               transition={{ duration: 0.5, delay: i * 0.15 }}
               className="bg-card border border-border rounded-xl overflow-hidden hover:border-primary/30 transition-colors duration-300">
               
-                <div className="h-72 bg-gradient-to-br from-primary/20 to-accent flex items-center justify-center overflow-hidden">
+                <div className="h-[360px] bg-gradient-to-br from-primary/20 to-accent flex items-center justify-center overflow-hidden">
                   {pastor.foto ? (
                     <img src={pastor.foto} alt={pastor.nome} className="w-full h-full object-cover object-top" />
                   ) : (
