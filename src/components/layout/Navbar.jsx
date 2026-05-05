@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, ChevronDown, Cross } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
@@ -50,16 +50,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group">
-            <Cross className="w-8 h-8 text-primary transition-transform duration-300 group-hover:scale-110" />
-            <div>
-              <span className="font-heading text-lg font-bold text-foreground tracking-wide">
-                IPS Carlos
-              </span>
-              <span className="block text-[10px] text-muted-foreground tracking-widest uppercase">
-                Igreja Presbiteriana
-              </span>
-            </div>
+          <Link to="/" className="flex items-center group">
+            <img
+              src="https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/b2f6f6396_logoipscarlos.png"
+              alt="Igreja Presbiteriana de São Carlos"
+              className="h-14 w-auto transition-opacity duration-300 group-hover:opacity-80"
+            />
           </Link>
 
           {/* Desktop Nav */}
