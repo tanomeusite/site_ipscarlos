@@ -30,14 +30,15 @@ export default function OndeEstamos() {
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="rounded-xl overflow-hidden border border-border h-[400px] lg:h-full min-h-[400px]"
+              className="rounded-xl overflow-hidden border border-border"
+              style={{ height: "100%", minHeight: "500px" }}
             >
               <iframe
                 title="Localização da Igreja Presbiteriana de São Carlos"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.9!2d-47.89558!3d-22.01982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f5a5c3c3c3c3%3A0x0!2sRua+Dona+Alexandrina%2C+1468%2C+S%C3%A3o+Carlos%2C+SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr&q=Rua+Dona+Alexandrina,+1468,+São+Carlos,+SP,+Brasil"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.123456!2d-47.89558!3d-22.01982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f5a5a9b4bb63%3A0x7c3d4e7b8c9e1f2a!2sR.+Dona+Alexandrina%2C+1468+-+Vila+Monteiro%2C+S%C3%A3o+Carlos+-+SP%2C+13574-620!5e0!3m2!1spt-BR!2sbr!4v1700000000001!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
-                style={{ border: 0, display: "block", minHeight: "400px" }}
+                style={{ border: 0, display: "block", width: "100%", height: "100%", minHeight: "500px" }}
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
