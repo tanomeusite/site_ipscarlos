@@ -1,13 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { MapPin, Clock, Phone, Car } from "lucide-react";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import PageHero from "@/components/shared/PageHero";
 import SectionHeader from "@/components/shared/SectionHeader";
 
 const HERO_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/c4901a454_generated_ce389ba4.png";
 
-const position = [-22.0174, -47.8908];
+const GOOGLE_MAPS_EMBED = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3698.0!2d-47.8936!3d-22.0195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDAxJzEwLjIiUyA0N8KwNTMnMzYuOSJX!5e0!3m2!1spt-BR!2sbr!4v1234567890&q=Rua+Dona+Alexandrina,+1468,+S%C3%A3o+Carlos,+SP";
 
 export default function OndeEstamos() {
   return (
@@ -31,26 +30,18 @@ export default function OndeEstamos() {
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="rounded-xl overflow-hidden border border-border h-[400px]"
+              className="rounded-xl overflow-hidden border border-border h-[400px] lg:h-full min-h-[400px]"
             >
-              <MapContainer
-                center={position}
-                zoom={16}
-                style={{ height: "100%", width: "100%" }}
-                scrollWheelZoom={false}
-              >
-                <TileLayer
-                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-                <Marker position={position}>
-                  <Popup>
-                    <strong>Igreja Presbiteriana de São Carlos</strong>
-                    <br />
-                    Rua Conde do Pinhal, 2076 — Centro
-                  </Popup>
-                </Marker>
-              </MapContainer>
+              <iframe
+                title="Localização da Igreja Presbiteriana de São Carlos"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3697.9!2d-47.89558!3d-22.01982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f5a5c3c3c3c3%3A0x0!2sRua+Dona+Alexandrina%2C+1468%2C+S%C3%A3o+Carlos%2C+SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr&q=Rua+Dona+Alexandrina,+1468,+São+Carlos,+SP,+Brasil"
+                width="100%"
+                height="100%"
+                style={{ border: 0, display: "block", minHeight: "400px" }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
             </motion.div>
 
             {/* Info */}
@@ -66,9 +57,8 @@ export default function OndeEstamos() {
                   <div>
                     <h3 className="font-heading text-lg font-bold text-foreground mb-2">Endereço</h3>
                     <p className="font-body text-muted-foreground">
-                      Rua Conde do Pinhal, 2076<br />
-                      Centro — São Carlos, SP<br />
-                      CEP: 13560-648
+                      Rua Dona Alexandrina, 1468<br />
+                      São Carlos, SP
                     </p>
                   </div>
                 </div>
