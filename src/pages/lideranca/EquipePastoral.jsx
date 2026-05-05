@@ -17,6 +17,12 @@ const pastores = [
     cargo: "Pastor Auxiliar",
     descricao: "Auxilia no ministério pastoral, coordena grupos pequenos e lidera os ministérios de jovens e adolescentes.",
     foto: "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/f165f4a34_renno.png"
+  },
+  {
+    nome: "Rev. Alan Cleber",
+    cargo: "Pastor Auxiliar",
+    descricao: "Auxilia no ministério pastoral, servindo a congregação com dedicação e fidelidade à Palavra de Deus.",
+    foto: "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/3cf724faa_alan.jpg"
   }
 ];
 
