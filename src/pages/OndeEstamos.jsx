@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { MapPin, Clock, Phone, Car } from "lucide-react";
+import { MapPin, Clock, Phone } from "lucide-react";
 import PageHero from "@/components/shared/PageHero";
 import SectionHeader from "@/components/shared/SectionHeader";
 
@@ -71,8 +71,10 @@ export default function OndeEstamos() {
                   <div>
                     <h3 className="font-heading text-lg font-bold text-foreground mb-2">Horários</h3>
                     <div className="space-y-2 font-body text-muted-foreground text-sm">
-                      <p><span className="text-foreground font-medium">Domingos:</span> 9h30 (Matutino) e 18h30 (Vespertino)</p>
-                      <p><span className="text-foreground font-medium">Quartas:</span> 19h30 (Estudo Bíblico)</p>
+                      <p><span className="text-foreground font-medium">UPA:</span> Sexta às 19h30</p>
+                      <p><span className="text-foreground font-medium">UMP:</span> Sábado às 18h30</p>
+                      <p><span className="text-foreground font-medium">Cultos:</span> 9h e 19h</p>
+                      <p><span className="text-foreground font-medium">Escola Dominical:</span> 10h</p>
                     </div>
                   </div>
                 </div>
@@ -82,20 +84,12 @@ export default function OndeEstamos() {
                 <div className="flex items-start gap-4">
                   <Phone className="w-6 h-6 text-primary shrink-0 mt-0.5" />
                   <div>
-                    <h3 className="font-heading text-lg font-bold text-foreground mb-2">Telefone</h3>
-                    <p className="font-body text-muted-foreground">(16) 3371-2009</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-card border border-border rounded-xl p-6 hover:border-primary/30 transition-colors duration-300">
-                <div className="flex items-start gap-4">
-                  <Car className="w-6 h-6 text-primary shrink-0 mt-0.5" />
-                  <div>
-                    <h3 className="font-heading text-lg font-bold text-foreground mb-2">Estacionamento</h3>
-                    <p className="font-body text-muted-foreground text-sm">
-                      Estacionamento disponível nas proximidades da igreja. Há vagas na rua e estacionamentos privados próximos.
-                    </p>
+                    <h3 className="font-heading text-lg font-bold text-foreground mb-2">Secretaria</h3>
+                    <div className="space-y-1 font-body text-muted-foreground text-sm">
+                      <p>De segunda a sexta: das 8h às 12h30</p>
+                      <p><span className="text-foreground font-medium">Telefone:</span> (16) 3371 8217</p>
+                      <p><span className="text-foreground font-medium">E-mail:</span> secretaria@ipscarlos.org.br</p>
+                    </div>
                   </div>
                 </div>
               </div>
