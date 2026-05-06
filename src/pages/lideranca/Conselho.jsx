@@ -7,7 +7,7 @@ import SectionHeader from "@/components/shared/SectionHeader";
 const HERO_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/d78d66e81_generated_5021373e.png";
 
 const presbiteros = [
-  { nome: "Presbítero 1", foto: null },
+  { nome: "Pb. Carlos André Azambuja", foto: "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/37543a233_Carlos-Andre-Azambuja.jpg" },
   { nome: "Presbítero 2", foto: null },
   { nome: "Presbítero 3", foto: null },
   { nome: "Presbítero 4", foto: null },
