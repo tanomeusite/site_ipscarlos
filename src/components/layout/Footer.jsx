@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Cross, MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -9,11 +9,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <Cross className="w-7 h-7 text-primary" />
-              <span className="font-heading text-lg font-bold text-foreground">
-                IPS Carlos
-              </span>
+            <div className="mb-4">
+              <img
+                src="https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/b2f6f6396_logoipscarlos.png"
+                alt="Igreja Presbiteriana de São Carlos"
+                className="h-16 w-auto"
+              />
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed font-body">
               Igreja Presbiteriana de São Carlos. Uma comunidade de fé, amor e esperança,
@@ -48,22 +49,16 @@ export default function Footer() {
           {/* Horários */}
           <div>
             <h4 className="font-heading text-sm font-semibold text-primary mb-4 uppercase tracking-wider">
-              Horários de Culto
+              Horários
             </h4>
             <div className="space-y-3 text-sm text-muted-foreground font-body">
               <div className="flex items-start gap-2">
                 <Clock className="w-4 h-4 text-primary mt-0.5 shrink-0" />
                 <div>
-                  <p className="text-foreground font-medium">Domingos</p>
-                  <p>Culto Matutino — 9h30</p>
-                  <p>Culto Vespertino — 18h30</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-2">
-                <Clock className="w-4 h-4 text-primary mt-0.5 shrink-0" />
-                <div>
-                  <p className="text-foreground font-medium">Quartas-feiras</p>
-                  <p>Estudo Bíblico — 19h30</p>
+                  <p><span className="text-foreground font-medium">UPA:</span> Sexta às 19h30</p>
+                  <p><span className="text-foreground font-medium">UMP:</span> Sábado às 18h30</p>
+                  <p><span className="text-foreground font-medium">Cultos:</span> 9h e 19h</p>
+                  <p><span className="text-foreground font-medium">Escola Dominical:</span> 10h</p>
                 </div>
               </div>
             </div>
@@ -77,15 +72,19 @@ export default function Footer() {
             <div className="space-y-3 text-sm text-muted-foreground font-body">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-primary mt-0.5 shrink-0" />
-                <p>Rua Conde do Pinhal, 2076 — Centro, São Carlos - SP</p>
+                <p>Rua Dona Alexandrina, 1468 — São Carlos, SP</p>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary shrink-0" />
-                <p>(16) 3371-2009</p>
+                <p>(16) 3371 8217</p>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary shrink-0" />
-                <p>contato@ipscarlos.org.br</p>
+                <p>secretaria@ipscarlos.org.br</p>
+              </div>
+              <div className="flex items-start gap-2">
+                <Clock className="w-4 h-4 text-primary mt-0.5 shrink-0" />
+                <p>Secretaria: Seg a Sex, 8h às 12h30</p>
               </div>
             </div>
           </div>
