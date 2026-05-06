@@ -6,34 +6,64 @@ const HISTORY_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee
 
 const timeline = [
   {
-    year: "1895",
-    title: "Fundação da Igreja",
+    year: "1875",
+    title: "Fundação no Sítio Monjolinho",
     description:
-      "A Igreja Presbiteriana de São Carlos foi fundada por missionários presbiterianos, trazendo a fé reformada para a região.",
+      "No dia 25 de abril, o Rev. João Fernandes Dagama organizou oficialmente a igreja com a profissão de fé de sete membros iniciais. O evento ocorreu na residência de José Castilho de Moraes, marcando o nascimento da primeira comunidade presbiteriana da região.",
   },
   {
-    year: "1920",
-    title: "Construção do Templo",
+    year: "1877",
+    title: "Primeiro Culto na Cidade",
     description:
-      "Com o crescimento da congregação, foi construído o templo na Rua Conde do Pinhal, que se tornaria referência na cidade.",
+      "Em 11 de junho, as atas registram a primeira referência a um culto realizado no perímetro urbano, em uma casa alugada na antiga Rua da Mata. Essa mudança foi estratégica para acomodar o crescente número de convertidos.",
   },
   {
-    year: "1960",
-    title: "Expansão e Ministérios",
+    year: "1893",
+    title: "Inauguração do Primeiro Templo",
     description:
-      "A igreja expandiu seus ministérios, criando grupos de jovens, escola dominical e ações sociais na comunidade.",
+      "A igreja deixou a 'Casa de Culto' para se instalar em seu próprio prédio na esquina das ruas São Sebastião e Dona Alexandrina. O edifício, de arquitetura clássica com torre neogótica, foi o primeiro templo evangélico edificado na cidade de São Carlos.",
   },
   {
-    year: "1990",
-    title: "Renovação e Crescimento",
+    year: "1928",
+    title: "Aquisição da Salva Histórica",
     description:
-      "Período de renovação espiritual e crescimento numérico, com novas famílias se integrando à comunidade.",
+      "A igreja adquiriu uma salva de madeira para o recolhimento de dízimos e ofertas, objeto que se tornou uma relíquia preservada até hoje. A peça possui feltro no fundo para abafar o barulho das moedas, garantindo a reverência no culto.",
   },
   {
-    year: "Hoje",
-    title: "Continuando a Missão",
+    year: "1931",
+    title: "Construção do Pavilhão Rev. Bizarro",
     description:
-      "Seguimos firmes no propósito de proclamar o Evangelho, servir à comunidade e glorificar a Deus em São Carlos.",
+      "Foi inaugurado o salão social para oferecer salas adequadas ao ensino da Escola Dominical. A construção contou com doações generosas de materiais e mão de obra dos próprios membros, consolidando o espaço para atividades educativas.",
+  },
+  {
+    year: "1952",
+    title: "Grande Reforma e Nova Fachada",
+    description:
+      "Após intensa campanha de arrecadação, o templo foi ampliado e ganhou sua atual arquitetura exuberante. A reinauguração em agosto revelou um estilo eclético com vitrais e uma torre imponente, refletindo o vigor da comunidade na época.",
+  },
+  {
+    year: "1963",
+    title: "Organização da Igreja de Vila Prado",
+    description:
+      "A congregação do bairro Vila Prado foi organizada como a segunda Igreja Presbiteriana da cidade. Esse fato marcou o início de um período de forte plantação de igrejas 'filhas' por diversos bairros de São Carlos.",
+  },
+  {
+    year: "1975",
+    title: "Centenário e Obra Social",
+    description:
+      "As celebrações dos 100 anos foram coroadas com a inauguração do Abrigo de Idosos Dona Helena Dornfeld em 29 de junho. A obra materializou o compromisso da igreja com a assistência social e o serviço à comunidade são-carlense.",
+  },
+  {
+    year: "1980",
+    title: "Centro Teológico Simonton",
+    description:
+      "A igreja passou a abrigar um seminário para formação de pastores e capacitação de líderes, transformando a Escola Dominical em um currículo teológico. O projeto atraiu estudantes de diversas regiões, tornando a igreja um polo de saber bíblico.",
+  },
+  {
+    year: "2025",
+    title: "Sesquicentenário e Expansão",
+    description:
+      "Ao completar 150 anos, a igreja celebrou seu jubileu com a plantação da Igreja Presbiteriana Encontro na região norte da cidade. O marco incluiu a criação de uma nova cápsula do tempo e a reafirmação do zelo pelo ensino bíblico.",
   },
 ];
 
