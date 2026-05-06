@@ -41,10 +41,18 @@ export default function Contato() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSending(true);
-    // Simulate sending
-    await new Promise((r) => setTimeout(r, 1500));
-    toast.success("Mensagem enviada com sucesso! Entraremos em contato em breve.");
-    setForm({ nome: "", email: "", telefone: "", mensagem: "" });
+    try {
+      const { base44 } = await import("@/api/base44Client");
+      await base44.integrations.Core.SendEmail({
+        to: "secretaria@ipscarlos.org.br",
+        subject: `Contato pelo site — ${form.nome}`,
+        body: `Nome: ${form.nome}\nE-mail: ${form.email}\nTelefone: ${form.telefone}\n\nMensagem:\n${form.mensagem}`,
+      });
+      toast.success("Mensagem enviada com sucesso! Entraremos em contato em breve.");
+      setForm({ nome: "", email: "", telefone: "", mensagem: "" });
+    } catch {
+      toast.error("Erro ao enviar mensagem. Tente novamente.");
+    }
     setSending(false);
   };
 
