@@ -42,19 +42,6 @@ export default function JuntaDiaconal() {
             description="Os diáconos são oficiais eleitos e ordenados para, sob supervisão do Conselho, dedicar-se especialmente à arrecadação de ofertas piedosas, ao cuidado de pobres, doentes e inválidos, à manutenção da ordem e reverência nos cultos, e à fiscalização da boa ordem na Casa de Deus."
           />
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="bg-card border border-border rounded-xl p-8 mb-12"
-          >
-            <p className="font-body text-muted-foreground leading-relaxed text-center">
-              A Junta Diaconal exerce o ministério de misericórdia na igreja, cuidando dos necessitados,
-              organizando ações sociais, visitando enfermos e promovendo o bem-estar da congregação.
-              São homens dedicados ao serviço cristão, eleitos pela congregação.
-            </p>
-          </motion.div>
-
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {diaconos.map((diacono, i) => (
               <motion.div
