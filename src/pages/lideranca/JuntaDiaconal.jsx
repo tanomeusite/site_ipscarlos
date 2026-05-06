@@ -29,7 +29,7 @@ export default function JuntaDiaconal() {
           <SectionHeader
             overline="Serviço e Cuidado"
             title="Junta Diaconal"
-            description="Os diáconos e diaconisas são responsáveis pelo serviço de misericórdia, assistência social e cuidado prático com os membros e a comunidade."
+            description="Os diáconos são oficiais eleitos e ordenados para, sob supervisão do Conselho, dedicar-se especialmente à arrecadação de ofertas piedosas, ao cuidado de pobres, doentes e inválidos, à manutenção da ordem e reverência nos cultos, e à fiscalização da boa ordem na Casa de Deus."
           />
 
           <motion.div
