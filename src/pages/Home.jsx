@@ -12,7 +12,7 @@ const BIBLE_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee98
 const services = [
 { day: "Domingos", time: "9h30", label: "Culto Matutino" },
 { day: "Domingos", time: "19h", label: "Culto Vespertino" },
-{ day: "DOMINGOS", time: "10H", label: "Estudo Bíblico" }];
+{ day: "DOMINGOS", time: "10h", label: "Escola Dominical" }];
 
 
 const features = [
