@@ -7,9 +7,9 @@ const HISTORY_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee
 const timeline = [
   {
     year: "1875",
-    title: "Fundação no Sítio Monjolinho",
+    title: "Organização no Sítio Monjolinho",
     description:
-      "No dia 25 de abril, o Rev. João Fernandes Dagama organizou oficialmente a igreja com a profissão de fé de sete membros iniciais. O evento ocorreu na residência de José Castilho de Moraes, marcando o nascimento da primeira comunidade presbiteriana da região.",
+      "No dia 25 de abril, o Rev. João Fernandes Dagama organizou oficialmente a igreja com a profissão de fé de sete membros iniciais. O evento ocorreu na residência de José Castilho de Moraes, marcando a organização da primeira comunidade presbiteriana da região.",
   },
   {
     year: "1877",
