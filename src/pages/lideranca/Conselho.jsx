@@ -8,11 +8,12 @@ const HERO_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee985
 
 const presbiteros = [
   { nome: "Pb. Carlos André Azambuja", foto: "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/37543a233_Carlos-Andre-Azambuja.jpg" },
-  { nome: "Presbítero 2", foto: null },
-  { nome: "Presbítero 3", foto: null },
-  { nome: "Presbítero 4", foto: null },
-  { nome: "Presbítero 5", foto: null },
-  { nome: "Presbítero 6", foto: null },
+  { nome: "Pb. Elcio Andrade", foto: "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/19d34420e_Elcio-Andrade.jpg" },
+  { nome: "Pb. Gabriel Casalecchi", foto: "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/e5e87627a_Gabriel-Casalecchi.jpg" },
+  { nome: "Pb. Gabriel Penteado", foto: "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/9d5fee402_Gabrieo-Penteado.jpg" },
+  { nome: "Pb. Marcos Mazzetti Siqueira", foto: "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/2900fd5df_Marcos-Mazzetti-Siqueira.jpg" },
+  { nome: "Pb. Pedro Anchieta", foto: "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/daa02bcd8_Pedro-Anchieta.jpg" },
+  { nome: "Pb. Samuel Gatti Robles", foto: "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/ba3939da3_Samuel-Gatti-Robles.jpg" },
 ];
 
 export default function Conselho() {
