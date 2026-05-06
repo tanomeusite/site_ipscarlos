@@ -146,7 +146,7 @@ export default function Home() {
           <SectionHeader
             overline="Nossos Pilares"
             title="No que Cremos"
-            description="Fundamentados na Palavra de Deus e nas doutrinas reformadas, somos uma igreja comprometida com a fé histórica." />
+            description="A Igreja Presbiteriana de São Carlos é uma comunidade cristã bíblica, confessional e reformada, filiada à Igreja Presbiteriana do Brasil (IPB). Cremos que a Bíblia Sagrada é a nossa única regra infalível de fé e prática, sendo a Palavra de Deus inspirada, inerrante e totalmente suficiente para a salvação e a vida cristã. Adotamos os Símbolos de Fé de Westminster (Confissão de Fé, Catecismo Maior e Breve Catecismo) como um resumo fiel e sistemático das doutrinas expostas nas Escrituras. Cremos em um só Deus, soberano Criador de todas as coisas, que subsiste eternamente em três pessoas: Pai, Filho e Espírito Santo. Confessamos que a salvação é um dom imerecido da graça de Deus, alcançada exclusivamente por meio da fé em Jesus Cristo — nosso único Senhor e Salvador — cuja obra redentora nos reconcilia com o Pai e nos capacita a viver para a Sua glória." />
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {features.map((feature, i) =>
