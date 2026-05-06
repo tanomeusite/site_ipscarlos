@@ -32,18 +32,18 @@ export default function JuntaDiaconal() {
             description="Os diáconos e diaconisas são responsáveis pelo serviço de misericórdia, assistência social e cuidado prático com os membros e a comunidade." />
           
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }} className="bg-card border border-border rounded-xl p-8 mb-12 hidden">
+          
 
-            
-            <p className="font-body text-muted-foreground leading-relaxed text-center">
-              A Junta Diaconal exerce o ministério de misericórdia na igreja, cuidando dos necessitados,
-              organizando ações sociais, visitando enfermos e promovendo o bem-estar da congregação.
-              São homens e mulheres dedicados ao serviço cristão, eleitos pela congregação.
-            </p>
-          </motion.div>
+
+
+
+
+
+
+
+
+
+          
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
             {diaconos.map((nome, i) =>
