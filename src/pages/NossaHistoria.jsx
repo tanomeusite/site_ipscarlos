@@ -54,10 +54,7 @@ export default function NossaHistoria() {
             viewport={{ once: true }}
             className="font-body text-lg text-muted-foreground leading-relaxed text-center mb-20"
           >
-            A Igreja Presbiteriana de São Carlos tem uma rica história que remonta ao final do
-            século XIX, quando missionários presbiterianos trouxeram a mensagem do Evangelho
-            para esta região do interior paulista. Desde então, a igreja tem sido um farol de
-            esperança e fé para gerações de são-carlenses.
+            A Igreja Presbiteriana de São Carlos é uma comunidade cristã bíblica, confessional e reformada, filiada à Igreja Presbiteriana do Brasil (IPB). Cremos que a Bíblia Sagrada é a nossa única regra infalível de fé e prática, sendo a Palavra de Deus inspirada, inerrante e totalmente suficiente para a salvação e a vida cristã. Adotamos os Símbolos de Fé de Westminster (Confissão de Fé, Catecismo Maior e Breve Catecismo) como um resumo fiel e sistemático das doutrinas expostas nas Escrituras. Cremos em um só Deus, soberano Criador de todas as coisas, que subsiste eternamente em três pessoas: Pai, Filho e Espírito Santo. Confessamos que a salvação é um dom imerecido da graça de Deus, alcançada exclusivamente por meio da fé em Jesus Cristo — nosso único Senhor e Salvador — cuja obra redentora nos reconcilia com o Pai e nos capacita a viver para a Sua glória.
           </motion.p>
 
           {/* Timeline */}
