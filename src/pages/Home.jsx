@@ -10,28 +10,28 @@ const COMMUNITY_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5
 const BIBLE_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/d78d66e81_generated_5021373e.png";
 
 const services = [
-  { day: "Domingos", time: "9h30", label: "Culto Matutino" },
-  { day: "Domingos", time: "18h30", label: "Culto Vespertino" },
-  { day: "Quartas", time: "19h30", label: "Estudo Bíblico" },
-];
+{ day: "Domingos", time: "9h30", label: "Culto Matutino" },
+{ day: "Domingos", time: "19h", label: "Culto Vespertino" },
+{ day: "DOMINGOS", time: "10H", label: "Estudo Bíblico" }];
+
 
 const features = [
-  {
-    icon: BookOpen,
-    title: "Palavra de Deus",
-    description: "Pregação fiel e expositiva das Escrituras Sagradas, fundamentada na Confissão de Fé de Westminster.",
-  },
-  {
-    icon: Users,
-    title: "Comunhão",
-    description: "Uma comunidade acolhedora onde famílias e indivíduos encontram amizade, apoio e crescimento espiritual.",
-  },
-  {
-    icon: Heart,
-    title: "Serviço",
-    description: "Comprometidos em servir a cidade de São Carlos com amor, compaixão e ações sociais transformadoras.",
-  },
-];
+{
+  icon: BookOpen,
+  title: "Palavra de Deus",
+  description: "Pregação fiel e expositiva das Escrituras Sagradas, fundamentada na Confissão de Fé de Westminster."
+},
+{
+  icon: Users,
+  title: "Comunhão",
+  description: "Uma comunidade acolhedora onde famílias e indivíduos encontram amizade, apoio e crescimento espiritual."
+},
+{
+  icon: Heart,
+  title: "Serviço",
+  description: "Comprometidos em servir a cidade de São Carlos com amor, compaixão e ações sociais transformadoras."
+}];
+
 
 export default function Home() {
   return (
@@ -47,16 +47,16 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="inline-block text-primary font-body text-xs font-semibold tracking-[0.3em] uppercase mb-6"
-          >
+            className="inline-block text-primary font-body text-xs font-semibold tracking-[0.3em] uppercase mb-6">
+            
             Igreja Presbiteriana de São Carlos
           </motion.span>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.15 }}
-            className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6"
-          >
+            className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight mb-6">
+            
             Uma comunidade de{" "}
             <span className="text-primary italic">fé</span>,{" "}
             <span className="text-primary italic">amor</span> e{" "}
@@ -66,8 +66,8 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.3 }}
-            className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
-          >
+            className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
+            
             Venha nos conhecer e faça parte de uma família que glorifica a Deus
             e transforma vidas através do Evangelho.
           </motion.p>
@@ -75,8 +75,8 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.45 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
-          >
+            className="flex flex-col sm:flex-row gap-4 justify-center">
+            
             <Button asChild size="lg" className="font-body text-sm tracking-wider uppercase px-8">
               <Link to="/quem-somos">Conheça-nos</Link>
             </Button>
@@ -94,13 +94,13 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        >
+          className="absolute bottom-8 left-1/2 -translate-x-1/2">
+          
           <motion.div
             animate={{ y: [0, 8, 0] }}
             transition={{ duration: 1.5, repeat: Infinity }}
-            className="w-6 h-10 border-2 border-primary/30 rounded-full flex items-start justify-center p-1.5"
-          >
+            className="w-6 h-10 border-2 border-primary/30 rounded-full flex items-start justify-center p-1.5">
+            
             <div className="w-1.5 h-1.5 bg-primary rounded-full" />
           </motion.div>
         </motion.div>
@@ -112,18 +112,18 @@ export default function Home() {
           <SectionHeader
             overline="Venha nos visitar"
             title="Horários de Culto"
-            description="Nossas portas estão sempre abertas para você. Participe de nossos cultos e estudos bíblicos."
-          />
+            description="Nossas portas estão sempre abertas para você. Participe de nossos cultos e estudos bíblicos." />
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {services.map((service, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="bg-card border border-border rounded-xl p-8 text-center hover:border-primary/30 transition-colors duration-300 group"
-              >
+            {services.map((service, i) =>
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+              className="bg-card border border-border rounded-xl p-8 text-center hover:border-primary/30 transition-colors duration-300 group">
+              
                 <Clock className="w-8 h-8 text-primary mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
                 <p className="text-xs text-primary font-body font-semibold tracking-widest uppercase mb-2">
                   {service.day}
@@ -135,7 +135,7 @@ export default function Home() {
                   {service.label}
                 </p>
               </motion.div>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -146,18 +146,18 @@ export default function Home() {
           <SectionHeader
             overline="Nossos Pilares"
             title="No que Cremos"
-            description="Fundamentados na Palavra de Deus e nas doutrinas reformadas, somos uma igreja comprometida com a fé histórica."
-          />
+            description="Fundamentados na Palavra de Deus e nas doutrinas reformadas, somos uma igreja comprometida com a fé histórica." />
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {features.map((feature, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.15 }}
-                className="text-center group"
-              >
+            {features.map((feature, i) =>
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.15 }}
+              className="text-center group">
+              
                 <div className="w-16 h-16 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center mx-auto mb-6 group-hover:bg-primary/20 transition-colors duration-300">
                   <feature.icon className="w-7 h-7 text-primary" />
                 </div>
@@ -168,7 +168,7 @@ export default function Home() {
                   {feature.description}
                 </p>
               </motion.div>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -181,8 +181,8 @@ export default function Home() {
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
+              transition={{ duration: 0.6 }}>
+              
               <span className="inline-block text-primary font-body text-xs font-semibold tracking-[0.25em] uppercase mb-4">
                 Comunidade
               </span>
@@ -205,14 +205,14 @@ export default function Home() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="relative"
-            >
+              className="relative">
+              
               <div className="rounded-2xl overflow-hidden">
                 <img
                   src={COMMUNITY_IMG}
                   alt="Comunidade da igreja"
-                  className="w-full h-80 object-cover"
-                />
+                  className="w-full h-80 object-cover" />
+                
               </div>
               <div className="absolute -bottom-4 -left-4 w-32 h-32 border-2 border-primary/20 rounded-2xl" />
             </motion.div>
@@ -231,8 +231,8 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
-          >
+            transition={{ duration: 0.7 }}>
+            
             <p className="font-heading text-2xl md:text-3xl italic text-foreground leading-relaxed mb-6">
               "Porque onde estiverem dois ou três reunidos em meu nome, ali eu estou no meio deles."
             </p>
@@ -242,6 +242,6 @@ export default function Home() {
           </motion.blockquote>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 }
