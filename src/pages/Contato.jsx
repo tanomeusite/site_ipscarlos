@@ -15,22 +15,22 @@ const infoItems = [
   {
     icon: MapPin,
     title: "Endereço",
-    text: "Rua Conde do Pinhal, 2076 — Centro, São Carlos - SP",
+    text: "Rua Dona Alexandrina, 1468 — São Carlos, SP",
   },
   {
     icon: Phone,
     title: "Telefone",
-    text: "(16) 3371-2009",
+    text: "(16) 3371 8217",
   },
   {
     icon: Mail,
     title: "E-mail",
-    text: "contato@ipscarlos.org.br",
+    text: "secretaria@ipscarlos.org.br",
   },
   {
     icon: Clock,
     title: "Secretaria",
-    text: "Segunda a Sexta: 9h às 17h",
+    text: "Segunda a Sexta: 8h às 12h30",
   },
 ];
 
