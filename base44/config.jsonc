@@ -1,0 +1,9 @@
+{
+  "name": "Igreja Presbiteriana de S\u00e3o Carlos",
+  "site": {
+    "installCommand": "npm install",
+    "buildCommand": "npm run build",
+    "serveCommand": "npm run dev",
+    "outputDirectory": "./dist"
+  }
+}
