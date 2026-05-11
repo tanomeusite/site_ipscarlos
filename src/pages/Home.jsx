@@ -5,7 +5,7 @@ import { Clock, MapPin, BookOpen, Users, Heart, ChevronRight } from "lucide-reac
 import { Button } from "@/components/ui/button";
 import SectionHeader from "@/components/shared/SectionHeader";
 
-const HERO_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/c4901a454_generated_ce389ba4.png";
+const HERO_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/9b0739dc0_capa_site.jpg";
 const COMMUNITY_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/55551051c_generated_9948c575.png";
 const BIBLE_IMG = "https://media.base44.com/images/public/69cc1a1ac332652db5ee9850/d78d66e81_generated_5021373e.png";
 
